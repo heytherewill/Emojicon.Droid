@@ -1,0 +1,34 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <!-- EmojiconEditText -->
+  <attr path="/api/package[@name='com.rockerhieu.emojicon']/class[@name='EmojiconEditText']/constructor[@name='EmojiconEditText' and count(parameter)=1 and parameter[1][@type='android.content.Context']]/parameter[@name='p0' and @type='android.content.Context']" name="name">context</attr>
+
+  <attr path="/api/package[@name='com.rockerhieu.emojicon']/class[@name='EmojiconEditText']/constructor[@name='EmojiconEditText' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet']]/parameter[@name='p0' and @type='android.content.Context']" name="name">context</attr>
+  <attr path="/api/package[@name='com.rockerhieu.emojicon']/class[@name='EmojiconEditText']/constructor[@name='EmojiconEditText' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet']]/parameter[@name='p1' and @type='android.util.AttributeSet']" name="name">attrs</attr>
+
+  <attr path="/api/package[@name='com.rockerhieu.emojicon']/class[@name='EmojiconEditText']/constructor[@name='EmojiconEditText' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet'] and parameter[3][@type='int']]/parameter[@name='p0' and @type='android.content.Context']" name="name">context</attr>
+  <attr path="/api/package[@name='com.rockerhieu.emojicon']/class[@name='EmojiconEditText']/constructor[@name='EmojiconEditText' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet'] and parameter[3][@type='int']]/parameter[@name='p1' and @type='android.util.AttributeSet']" name="name">attrs</attr>
+  <attr path="/api/package[@name='com.rockerhieu.emojicon']/class[@name='EmojiconEditText']/constructor[@name='EmojiconEditText' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet'] and parameter[3][@type='int']]/parameter[@name='p2' and @type='int']" name="name">defStyle</attr>
+
+  <attr path="/api/package[@name='com.rockerhieu.emojicon']/class[@name='EmojiconEditText']/method[@name='setEmojiconSize' and count(parameter)=1 and parameter[1][@type='int']]/parameter[@name='p0' and @type='int']" name="name">size</attr>
+
+  <!-- EmojiconTextView -->
+  <attr path="/api/package[@name='com.rockerhieu.emojicon']/class[@name='EmojiconTextView']/constructor[@name='EmojiconTextView' and count(parameter)=1 and parameter[1][@type='android.content.Context']]/parameter[@name='p0' and @type='android.content.Context']" name="name">context</attr>
+  
+  <attr path="/api/package[@name='com.rockerhieu.emojicon']/class[@name='EmojiconTextView']/constructor[@name='EmojiconTextView' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet']]/parameter[@name='p0' and @type='android.content.Context']" name="name">context</attr>
+  <attr path="/api/package[@name='com.rockerhieu.emojicon']/class[@name='EmojiconTextView']/constructor[@name='EmojiconTextView' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet']]/parameter[@name='p1' and @type='android.util.AttributeSet']" name="name">attrs</attr>
+  
+  <attr path="/api/package[@name='com.rockerhieu.emojicon']/class[@name='EmojiconTextView']/constructor[@name='EmojiconTextView' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet'] and parameter[3][@type='int']]/parameter[@name='p0' and @type='android.content.Context']" name="name">context</attr>
+  <attr path="/api/package[@name='com.rockerhieu.emojicon']/class[@name='EmojiconTextView']/constructor[@name='EmojiconTextView' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet'] and parameter[3][@type='int']]/parameter[@name='p1' and @type='android.util.AttributeSet']" name="name">attrs</attr>
+  <attr path="/api/package[@name='com.rockerhieu.emojicon']/class[@name='EmojiconTextView']/constructor[@name='EmojiconTextView' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.util.AttributeSet'] and parameter[3][@type='int']]/parameter[@name='p2' and @type='int']" name="name">defStyle</attr>
+
+  <attr path="/api/package[@name='com.rockerhieu.emojicon']/class[@name='EmojiconTextView']/method[@name='setEmojiconSize' and count(parameter)=1 and parameter[1][@type='int']]/parameter[@name='p0' and @type='int']" name="name">size</attr>
+
+</metadata>
